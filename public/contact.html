@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — GALACTICLEGENDS GAMES</title>
+  <meta name="description" content="Reach out to the legends. Contact GALACTICLEGENDS GAMES in Gurugram, India for partnerships, press, or feedback.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Background Canvas for Cosmic Particle System -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="navbar">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="/assets/logo.png" alt="GALACTICLEGENDS GAMES Emblem">
+        GALACTICLEGENDS
+      </a>
+      <ul class="nav-menu">
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/#games" class="nav-link">Games</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+        <li><a href="/contact" class="nav-link active">Contact</a></li>
+        <li><a href="/#games" class="btn btn-primary btn-pill btn-sm">Play Now</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay Menu -->
+  <div class="mobile-overlay">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/#games" class="nav-link">Games</a>
+    <a href="/about" class="nav-link">About</a>
+    <a href="/contact" class="nav-link">Contact</a>
+    <a href="/#games" class="btn btn-primary btn-pill" style="margin-top: 20px;">Play Now</a>
+  </div>
+
+  <!-- CONTACT HERO SECTION -->
+  <section class="contact-hero">
+    <div class="container scroll-reveal">
+      <span class="badge-studio" style="color: var(--accent-cyan); border-color: rgba(0, 229, 255, 0.4);">COMMUNICATIONS BAY</span>
+      <h1 class="about-hero-title" style="background: linear-gradient(90deg, #fff, var(--accent-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">REACH OUT TO THE LEGENDS</h1>
+      <p class="hero-subtitle">Whether you're a partner, press, or a fan — we'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT LAYOUT SECTION -->
+  <section class="story-section" style="padding-top: 0;">
+    <div class="container contact-layout">
+      
+      <!-- Contact Form Box -->
+      <div class="contact-form-box scroll-reveal">
+        <form id="galaxy-contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="yourname@domain.com" required>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="subject">Uplink Subject</label>
+            <select id="subject" class="form-control" required>
+              <option value="" disabled selected>Select subject</option>
+              <option value="Partnership">Partnership / Collaboration</option>
+              <option value="Press">Press Inquiry</option>
+              <option value="General">General Feedback</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="message">Transmission Message</label>
+            <textarea id="message" class="form-control" placeholder="Type your message into the stars..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Send It Into the Galaxy →
+          </button>
+        </form>
+      </div>
+      
+      <!-- Contact Info Card -->
+      <div class="contact-info-card scroll-reveal">
+        <h2 class="info-title">STUDIO COORDINATES</h2>
+        
+        <ul class="info-list">
+          <li class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <strong>Location</strong>
+              <p>Palm Court Building, Sector 16, Gurugram, India</p>
+            </div>
+          </li>
+          
+          <li class="info-item">
+            <div class="info-icon">✉️</div>
+            <div class="info-text">
+              <strong>Uplink Email</strong>
+              <p><a href="mailto:vikas@galacticlegendsgames.com">vikas@galacticlegendsgames.com</a></p>
+            </div>
+          </li>
+          
+          <li class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <strong>Comm-link Phone</strong>
+              <p>+91-99583XXXX</p>
+            </div>
+          </li>
+        </ul>
+        
+        <div class="info-socials-container">
+          <h3 class="info-socials-title">Follow the Voyage</h3>
+          <div class="info-socials">
+            <a href="https://youtube.com/@hoodastudios" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube Channel">
+              <svg style="width:24px;height:24px;" viewBox="0 0 24 24"><path fill="currentColor" d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.03,18.78 15.83,18.84C13.63,18.91 12.36,18.94 12,18.94L11.16,18.94C9.03,18.94 7.42,18.78 6.33,18.56C5.43,18.31 4.85,17.73 4.6,16.83C4.47,16.36 4.38,15.73 4.31,14.93C4.24,14.13 4.21,13.44 4.21,12.84L4.16,12C4.16,9.81 4.31,8.2 4.6,7.17C4.85,6.27 5.43,5.69 6.33,5.44C6.8,5.31 8.13,5.22 10.33,5.16C12.53,5.09 13.8,5.06 14.16,5.06L15,5.06C17.13,5.06 18.74,5.22 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+              <svg style="width:24px;height:24px;" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span style="color: var(--accent-cyan);">GALACTICLEGENDS</span> GAMES
+          </div>
+          <p class="footer-tagline">Explore Fun in New Ways. Building stellar game releases for the universe from Gurugram.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#games">Games</a></li>
+            <li><a href="/about">About Studio</a></li>
+            <li><a href="/contact">Get in Touch</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Gurugram Studio</h4>
+          <ul class="footer-contact-details">
+            <li><strong>Office:</strong> Palm Court Building, Sector 16, Gurugram, India</li>
+            <li><strong>Email:</strong> vikas@galacticlegendsgames.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 GALACTICLEGENDS GAMES · Made with 🎮 in Gurugram, India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Javascript File -->
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GALACTICLEGENDS GAMES — Explore Fun in New Ways</title>
+  <meta name="description" content="Indie game studio from Gurugram, India. Building thrilling video games for players everywhere. Check out Gushout and more.">
+  
+  <!-- SEO & Open Graph Metas -->
+  <meta property="og:title" content="GALACTICLEGENDS GAMES — Explore Fun in New Ways">
+  <meta property="og:description" content="Indie game studio from Gurugram, India. Building thrilling video games for players everywhere. Check out Gushout.">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Background Canvas for Cosmic Particle System -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="navbar">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="/assets/logo.png" alt="GALACTICLEGENDS GAMES Emblem">
+        GALACTICLEGENDS
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#games" class="nav-link">Games</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="#games" class="btn btn-primary btn-pill btn-sm">Play Now</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay Menu -->
+  <div class="mobile-overlay">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#games" class="nav-link">Games</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="/contact" class="nav-link">Contact</a>
+    <a href="#games" class="btn btn-primary btn-pill" style="margin-top: 20px;">Play Now</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="container hero-content scroll-reveal">
+      <span class="badge-studio">🎮 INDIE GAME STUDIO · GURUGRAM, INDIA</span>
+      <h1 class="hero-title">WHERE LEGENDS ARE BORN IN THE GALAXY</h1>
+      <p class="hero-subtitle">We build thrilling video games that turn boredom into an adventure. Explore fun in new ways.</p>
+      
+      <div class="hero-actions">
+        <a href="#games" class="btn btn-primary">Explore Our Games</a>
+        <a href="#about" class="btn btn-secondary">Who We Are</a>
+      </div>
+      
+      <div class="social-proof">
+        Based in Gurugram · Crafting games for the universe
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES SHOWCASE SECTION -->
+  <section id="games" class="games-section diagonal-section diagonal-cut-both">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <h2 class="section-title">OUR GAMES</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">Each game is a new universe waiting to be explored.</p>
+      </div>
+
+      <!-- Featured Game Card for GUSHOUT -->
+      <div class="game-card-featured scroll-reveal">
+        <div class="game-card-content">
+          <span class="game-card-badge">Featured Title</span>
+          <h3 class="game-title">GUSHOUT</h3>
+          <p class="game-tagline">A fun peppy shooter game designed to kill boredom.</p>
+          <p class="game-description">
+            Gushout drops you into a fast-paced, colorful shooter where the only mission is to have fun. Fast reflexes, satisfying splats, and endless replayability — this is your ultimate escape from the mundane. Grab your gear and start making waves across the galaxy.
+          </p>
+          <div class="game-tags">
+            <span class="tag">🎯 Shooter</span>
+            <span class="tag">⚡ Fast-Paced</span>
+            <span class="tag">😄 Casual</span>
+            <span class="tag">🪐 Sci-Fi</span>
+          </div>
+          <!-- Play Now link omitted since external redirection URL is not provided -->
+        </div>
+        <div class="game-card-visual">
+          <img class="game-card-image" src="/assets/gushout_poster.jpg" alt="GUSHOUT Gameplay Poster" loading="lazy">
+        </div>
+      </div>
+
+      <div class="more-games-teaser scroll-reveal">
+        <p>More games launching soon — follow us to be first.</p>
+        <div class="teaser-socials">
+          <a href="https://youtube.com/@hoodastudios" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube Channel">
+            <!-- YouTube Icon SVG -->
+            <svg style="width:28px;height:28px;" viewBox="0 0 24 24"><path fill="currentColor" d="M23,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 23,12M10,17V7L16,12L10,17Z"/></svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+            <!-- Instagram Icon SVG -->
+            <svg style="width:28px;height:28px;" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / STUDIO SECTION -->
+  <section id="about" class="about-section diagonal-section">
+    <div class="container about-grid">
+      <div class="about-text scroll-reveal">
+        <h2 class="section-title">WE ARE GALACTICLEGENDS</h2>
+        <div class="section-underline" style="margin: 10px 0 30px 0;"></div>
+        <p class="about-lead">A scrappy, passionate game studio from Gurugram, India — building entertainment that transcends borders and beats boredom into the ground.</p>
+        <p class="about-paragraph">
+          We believe video games should be accessible, exciting, and above all, incredibly fun. Our team is obsessed with placing every pixel, perfecting every mechanic, and building worlds that you want to return to day after day. Join us as we build the future of gaming right from Haryana.
+        </p>
+        
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-number">1+</div>
+            <div class="stat-label">Games Launched</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Hours of Fun</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">🚀 1</div>
+            <div class="stat-label">Studio, Big Dreams</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-visual scroll-reveal">
+        <img class="floating-artwork" src="/assets/studio_illustration.png" alt="GALACTICLEGENDS Studio Visual" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY WE BUILD SECTION -->
+  <section class="why-section diagonal-section diagonal-cut-top">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <h2 class="section-title">FUN IS OUR MISSION</h2>
+        <div class="section-underline"></div>
+      </div>
+      
+      <div class="grid-card-container">
+        <!-- Card 1 -->
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">🎮</div>
+          <h3 class="why-title">Games for Everyone</h3>
+          <p class="why-description">Accessible, colorful, and addictive by design. Games that anyone can pick up but nobody wants to put down.</p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">🌌</div>
+          <h3 class="why-title">Born from Passion</h3>
+          <p class="why-description">Every pixel is placed with obsession. We refine our gameplay loops until they feel absolutely flawless.</p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="why-card scroll-reveal">
+          <div class="why-icon">🚀</div>
+          <h3 class="why-title">Always Expanding</h3>
+          <p class="why-description">New games, new worlds, and massive updates are always in the pipeline. We never stop creating.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY / SOCIAL SECTION -->
+  <section class="community-section">
+    <div class="container scroll-reveal">
+      <h2 class="section-title">JOIN THE LEGION</h2>
+      <div class="section-underline"></div>
+      <p class="community-text" style="margin-top: 15px; margin-bottom: 40px; font-size: 1.15rem; color: var(--text-secondary);">
+        Follow us for game updates, behind-the-scenes, and launch announcements.
+      </p>
+      
+      <div class="community-buttons">
+        <a href="https://youtube.com/@hoodastudios" target="_blank" rel="noopener" class="community-btn yt">
+          <svg viewBox="0 0 24 24"><path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.507a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.507 9.388.507 9.388.507s7.517 0 9.388-.507a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Subscribe on YouTube
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="community-btn ig">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          Follow on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA SECTION -->
+  <section class="contact-cta-section diagonal-section diagonal-cut-top">
+    <div class="container">
+      <div class="cta-box scroll-reveal">
+        <h2 class="section-title text-gold">LET'S BUILD SOMETHING LEGENDARY</h2>
+        <p class="cta-subtext" style="color: var(--text-secondary); margin-top: 15px;">
+          Partnerships, collabs, press inquiries, or just want to say hi? We're all ears.
+        </p>
+        <a href="/contact" class="btn btn-primary">Get in Touch</a>
+        
+        <div class="cta-details">
+          <span>✉️ <a href="mailto:vikas@galacticlegendsgames.com">vikas@galacticlegendsgames.com</a></span>
+          <span>📍 Palm Court Building, Sector 16, Gurugram, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING MOBILE STICKY CTA -->
+  <div class="mobile-sticky-cta">
+    <a href="#games" class="btn btn-primary">Play GUSHOUT Now 🎮</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span style="color: var(--accent-cyan);">GALACTICLEGENDS</span> GAMES
+          </div>
+          <p class="footer-tagline">Explore Fun in New Ways. Building stellar game releases for the universe from Gurugram.</p>
+          <div class="footer-socials">
+            <a href="https://youtube.com/@hoodastudios" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube">
+              <svg style="width:20px;height:20px;" viewBox="0 0 24 24"><path fill="currentColor" d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.03,18.78 15.83,18.84C13.63,18.91 12.36,18.94 12,18.94L11.16,18.94C9.03,18.94 7.42,18.78 6.33,18.56C5.43,18.31 4.85,17.73 4.6,16.83C4.47,16.36 4.38,15.73 4.31,14.93C4.24,14.13 4.21,13.44 4.21,12.84L4.16,12C4.16,9.81 4.31,8.2 4.6,7.17C4.85,6.27 5.43,5.69 6.33,5.44C6.8,5.31 8.13,5.22 10.33,5.16C12.53,5.09 13.8,5.06 14.16,5.06L15,5.06C17.13,5.06 18.74,5.22 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+              <svg style="width:20px;height:20px;" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#about">About Studio</a></li>
+            <li><a href="/contact">Get in Touch</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="footer-col">
+          <h4 class="footer-title">Gurugram Studio</h4>
+          <ul class="footer-contact-details">
+            <li><strong>Office:</strong> Palm Court Building, Sector 16, Gurugram, India</li>
+            <li><strong>Email:</strong> vikas@galacticlegendsgames.com</li>
+            <li><strong>Connect:</strong> +91-99583XXXX</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 GALACTICLEGENDS GAMES · Made with 🎮 in Gurugram, India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Javascript File -->
+  <script src="/js/main.js"></script>
+</body>
+</html>

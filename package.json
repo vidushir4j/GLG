@@ -1,0 +1,23 @@
+{
+  "name": "galacticlegends-games",
+  "version": "1.0.0",
+  "description": "Full-stack marketing website for GALACTICLEGENDS GAMES",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "gaming",
+    "marketing",
+    "express",
+    "full-stack"
+  ],
+  "author": "GALACTICLEGENDS GAMES",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
